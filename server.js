@@ -45,7 +45,7 @@ app.use('/api/offers',offerRoutes);
 
 // Test root route
 app.get('/', (req, res) => {
-    res.send('Hello from the other side!');
+    res.send('Tuba Store Backend is Running!');
 });
 
 // Start server
